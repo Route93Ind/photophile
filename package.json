@@ -4,5 +4,24 @@
     "express": "^4.18.2",
     "knex": "^2.4.2",
     "pg": "^8.10.0"
-  }
+  },
+  "name": "photophile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Route93Ind/photophile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Route93Ind/photophile/issues"
+  },
+  "homepage": "https://github.com/Route93Ind/photophile#readme",
+  "description": ""
 }
