@@ -12,7 +12,7 @@ module.exports = {
     connection: {
       database: process.env.PG_DB || 'photophile_db',
       user: process.env.PG_USER || 'postgres',
-      password: process.env.PG_PASSWORD || 'Road2riches93',
+      password: process.env.PG_PASSWORD || '123',
       host: process.env.HOST || 'localhost',
       port: process.env.PG_PORT || 5432,
     },
