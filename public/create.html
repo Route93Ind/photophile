@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/create.css">
   <script type="module" src="./scripts/create.js"></script>
   <title>Sign Up</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 <body>
   <nav id="main-nav"></nav>
   <main>
-    <h1 id="sign-up">Sign Up Today!</h1>
+    <!-- <h1 id="sign-up">Sign Up Today!</h1>
     <form id="create-form" aria-describedby="sign-up">
       <label for="username">Username</label>
       <input type="text" name="username" id="username" autocomplete="username">
@@ -21,7 +21,58 @@
       <input type="password" name="password" id="password" autocomplete="password">
 
       <button type="submit">Create User</button>
-    </form>
+    </form> -->
+
+    <div class="overlay">
+      <form>
+         <!--   con = Container  for items in the form-->
+         <div class="con">
+         <!--     Start  header Content  -->
+         <header class="head-form">
+            <h2>Sign Up</h2>
+         </header>
+         <!--     End  header Content  -->
+         <br>
+         <div class="field-set">
+           
+            <!--   user name -->
+               <span class="input-item">
+                 <i class="fa fa-user-circle"></i>
+               </span>
+              <!--   user name Input-->
+               <input class="form-input" id="txt-input" type="text" placeholder="UserName" required>
+           
+            <br>
+           
+                 <!--   Password -->
+           
+            <span class="input-item">
+              <i class="fa fa-key"></i>
+             </span>
+            <!--   Password Input-->
+            <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+
+            <br>
+      <!--        buttons -->
+      <!--      button LogIn -->
+            <button class="log-in"> Log In </button>
+         </div>
+
+         <div class="other">
+
+            <button class="btn submits sign-up">Sign Up 
+      <!--         Sign Up font icon -->
+            <i class="fa fa-user-plus" aria-hidden="true"></i>
+            </button>
+      <!--      End Other the Division -->
+         </div>
+           
+      <!--   End Conrainer  -->
+        </div>
+        
+        <!-- End Form -->
+      </form>
+      </div>
   </main>
 </body>
 </html>

@@ -13,5 +13,5 @@ const postPhoto = async (req, res) => {
   res.send(photo);
 }
 
-
+   
 module.exports = postPhoto;

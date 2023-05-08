@@ -6,19 +6,19 @@ class Photo {
   // to provide the controller with instances that
   // have access to the instance methods isValidPassword
   // and update.
-  constructor({ url, caption,user_id}) {
-    // this.id = this.id;
-    this.url = url;
-    this.caption = caption;
-    this.user_id = user_id;
-  }
+  // constructor({ url, caption,user_id}) {
+  //   // this.id = this.id;
+  //   this.url = url;
+  //   this.caption = caption;
+  //   this.user_id = user_id;
+  // }
 
   static async post(url, caption, userId) {
     try{
       const {rows: [photo]} = await knex.raw(`
       INSERT INTO photos 
       (url, caption, user_id) 
-      VALUES (?, ?, ?) RETURNING *`, [url, caption, userId]);
+      VALUES (?, ?) RETURNING *`, [url, caption, userId]);
       return photo;
     }catch(err){
       console.error(err);

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Calistoga', cursive;
+    background-color: #FFFCF9;
+  }
+  
+  nav {
+    height: 2rem;
+    display:flex;
+    justify-content: flex-start;
+    z-index: 10;
+    align-items: self-end;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 100%;
+    gap: 1rem;
+  }
+  
+  button{
+    font-family: 'Calistoga', cursive;
+  }
